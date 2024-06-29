@@ -61,6 +61,9 @@ def predict_sentiment(comment, model, tfidf):
 # Streamlit interface
 def main():
     st.title('Sentiment Analysis App')
+    st.text("by Ansh Dabral")
+    st.write(" my [resume website](https://anshd2002.github.io/Resume_website.github.io/)")
+
 
     # User input area
     comment = st.text_area('Enter a comment')
