@@ -6,6 +6,11 @@ import pickle
 import nltk
 nltk.download('stopwords')
 from nltk.corpus import stopwords
+import subprocess
+import sys
+
+subprocess.call([sys.executable, "-m", "pip", "install", "nltk"])
+
 
 
 # Function to remove stopwords from text
