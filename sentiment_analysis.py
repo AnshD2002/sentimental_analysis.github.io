@@ -1,13 +1,14 @@
 import nltk
 nltk.download('stopwords', quiet=True)
+nltk.download('punkt',quiet=True)
 
-from nltk.tokenize import word_tokenize
+from nltk.tokenize import word_tokenize, sent_tokenize
+from nltk.corpus import stopwords
 from nltk.tokenize import RegexpTokenizer
 import streamlit as st
 import pickle
 import subprocess
 import sys
-from nltk.corpus import stopwords
 import sklearn
 from sklearn.feature_extraction.text import CountVectorizer
 
