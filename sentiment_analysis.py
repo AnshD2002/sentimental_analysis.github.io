@@ -8,6 +8,7 @@ import pickle
 import subprocess
 import sys
 from nltk.corpus import stopwords
+import sklearn
 
 
 subprocess.call([sys.executable, "-m", "pip", "install", "nltk"])
