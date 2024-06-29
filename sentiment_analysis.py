@@ -3,6 +3,10 @@ from nltk.tokenize import word_tokenize
 from nltk.tokenize import RegexpTokenizer
 import streamlit as st
 import pickle
+import nltk
+nltk.download('stopwords')
+from nltk.corpus import stopwords
+
 
 # Function to remove stopwords from text
 def remove_stopwords(text):
