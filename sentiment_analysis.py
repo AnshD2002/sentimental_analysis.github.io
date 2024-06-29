@@ -1,13 +1,14 @@
-from nltk.corpus import stopwords
+import nltk
+nltk.download('stopwords', quiet=True)
+
 from nltk.tokenize import word_tokenize
 from nltk.tokenize import RegexpTokenizer
 import streamlit as st
 import pickle
-import nltk
-nltk.download('stopwords')
-from nltk.corpus import stopwords
 import subprocess
 import sys
+from nltk.corpus import stopwords
+
 
 subprocess.call([sys.executable, "-m", "pip", "install", "nltk"])
 
