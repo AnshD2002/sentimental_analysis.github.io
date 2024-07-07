@@ -1,4 +1,7 @@
 # Sentiment Analysis App
+[Sentimental_Analysis](https://sentimentalanalysisappio-rf46qzc3gf3bzhmsue3obz.streamlit.app/)
+
+![webpage](https://github.com/AnshD2002/sentimental_analysis_app/assets/89890890/6316943b-6cc4-4865-8b51-18390845acf7)
 
 A sentiment analysis web application built with Python using Streamlit, NLTK for text preprocessing, and sklearn for machine learning.
 
