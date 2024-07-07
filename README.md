@@ -1,1 +1,73 @@
-https://sentimentalanalysisappio-rf46qzc3gf3bzhmsue3obz.streamlit.app/
+# Sentiment Analysis App
+
+A sentiment analysis web application built with Python using Streamlit, NLTK for text preprocessing, and sklearn for machine learning.
+
+## Overview
+
+This application analyzes the sentiment of user-provided comments, categorizing them as positive or negative. It uses a machine learning model trained on a dataset to predict sentiment and displays corresponding images based on the sentiment detected.
+
+### Features
+
+- **Text Preprocessing:** Removes stopwords and punctuation from user comments.
+- **Machine Learning Model:** Predicts sentiment using a pre-trained model.
+- **Interactive UI:** Provides a user-friendly interface using Streamlit for input and result display.
+
+## Files
+
+- **sentiment_analysis.py**: Python script containing the Streamlit app code.
+- **models/sentiment_model.pkl**: Pickled file containing the trained sentiment analysis model.
+- **models/tfidf_vectorizer.pkl**: Pickled file containing TF-IDF vectorizer used for text transformation.
+- **requirements.txt**: File listing dependencies required to run the application.
+
+## Technologies Used
+
+- Python
+- Streamlit
+- NLTK (Natural Language Toolkit)
+- sklearn (scikit-learn)
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/sentiment-analysis-app.git
+Navigate to the project directory:
+
+bash
+Copy code
+cd sentiment-analysis-app
+Install dependencies:
+
+bash
+Copy code
+pip install -r requirements.txt
+Usage
+Run the Streamlit app:
+
+bash
+Copy code
+streamlit run sentiment_analysis.py
+Open your browser and go to http://localhost:8501 to view the application.
+
+Enter a comment in the provided text area and click the "Analyze Sentiment" button to see the predicted sentiment and corresponding image.
+
+Demo
+Check out the live demo of the application here.
+
+Contributing
+Contributions are welcome! If you'd like to contribute:
+
+Fork the repository.
+Create a new branch (git checkout -b feature/your-feature).
+Commit your changes (git commit -am 'Add some feature').
+Push to the branch (git push origin feature/your-feature).
+Create a new Pull Request.
+License
+This project is licensed under the MIT License.
+
+Contact
+For any questions or feedback, feel free to reach out:
+
+Email: your-email@example.com
+GitHub: @your-username
+Personal Website: Your Website
