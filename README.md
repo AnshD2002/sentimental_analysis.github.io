@@ -31,43 +31,10 @@ This application analyzes the sentiment of user-provided comments, categorizing 
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/sentiment-analysis-app.git
-Navigate to the project directory:
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
 
-bash
-Copy code
-cd sentiment-analysis-app
-Install dependencies:
-
-bash
-Copy code
-pip install -r requirements.txt
-Usage
-Run the Streamlit app:
-
-bash
-Copy code
-streamlit run sentiment_analysis.py
-Open your browser and go to http://localhost:8501 to view the application.
-
-Enter a comment in the provided text area and click the "Analyze Sentiment" button to see the predicted sentiment and corresponding image.
-
-Demo
-Check out the live demo of the application here.
-
-Contributing
-Contributions are welcome! If you'd like to contribute:
-
-Fork the repository.
-Create a new branch (git checkout -b feature/your-feature).
-Commit your changes (git commit -am 'Add some feature').
-Push to the branch (git push origin feature/your-feature).
-Create a new Pull Request.
-License
-This project is licensed under the MIT License.
-
-Contact
-For any questions or feedback, feel free to reach out:
-
-Email: your-email@example.com
-GitHub: @your-username
-Personal Website: Your Website
+3. Run the Streamlit app:
+   ```bash
+   streamlit run sentiment_analysis.py
