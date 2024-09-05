@@ -62,7 +62,7 @@ def predict_sentiment(comment, model, tfidf):
 def main():
     st.title('Sentiment Analysis App')
     st.text("by Ansh Dabral")
-    st.write(" my [resume website](https://anshd2002.github.io/Resume_website.github.io/)")
+    st.write(" my [resume website](https://anshd2002.github.io/Resume/)")
 
 
     # User input area
